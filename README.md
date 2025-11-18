@@ -1,6 +1,6 @@
 # Add Arduino Tool Calls to Ai Chat
 
-The attached notebook and Arduino code is simple example that shows how to connect Python code running in a local Jupyter Notebook to an Arduino. This setup gives a user the ability to tell AI chat agents to take actions in the real world e.g. switch on a light. It's also an easy and low-cost way to add GPIO pins to a Mac or PC.
+The attached notebook and Arduino code is a simple example that shows how to connect Python code running in a local Jupyter Notebook to an Arduino. This setup gives a user the ability to tell AI chat agents to take actions in the real world e.g. switch on a light. It's also an easy and low-cost way to add GPIO pins to a Mac or PC.
 
 This example will help you to quickly grasp the fundamentals of connecting AI to the physical world.
 
@@ -15,7 +15,7 @@ This example will help you to quickly grasp the fundamentals of connecting AI to
     *   **The Baud Rate:** The speed of communication. This rate **must be identical** in both the Python script and the Arduino sketch (e.g., `9600`).
 
 *   **The Arduino's Role:** The code on the Arduino runs continuously in its `loop()` function. It can be programmed to do one of two things:
-    *   **Send Data:** Constantly send information (like sensor readings) over the serial port for Python to read.
+    *   **Send Data:** Send information (like sensor readings) over the serial port for Python to read.
     *   **Listen for Data:** Wait for a command to be sent from the Jupyter Notebook, and then take action based on that command (like turning an LED on or off, or sending back a sensor reading).
  
 <br>
@@ -28,7 +28,7 @@ The included Jupyter Notebook (`example.ipynb`) provides two examples:
     *   Send a simple command from the Jupyter Notebook to make the Arduino perform a physical action. This example uses the builtin LED on the Arduino therefore, you don't need to do any wiring.
 
 *   **2. Control Arduino with the Gemini LLM**
-    *   Use a Large Language Model (LLM) to interact with the Arduino using natural language. By chatting with Gemini and using function calling, you can type commands like "turn the light on." The model will translate your request into code that controls the Arduino. 
+    *   Use a Large Language Model (LLM) to interact with the Arduino using natural language. By chatting with Gemini and using function calling, you can type commands like "Please turn on the light." The model will translate your request into code that controls the Arduino. 
 
 <br>
 
