@@ -49,7 +49,7 @@ The included Jupyter Notebook (`example.ipynb`) provides two examples:
 
 Most Arduino boards (like the Uno, Nano, and Mega) are designed to automatically reset whenever a new serial connection is opened from a computer. This feature allows the Arduino IDE to easily upload new code without needing to press the physical reset button. 
 
-However, in an application, this causes an unintended side effects. If you first ask the LLM to turn on the LED, it will execute your instruction. If you then ask the LLM to switch the LED off - you'll see that the LED turns off. However, the LED will be switched off because the board resets - not beacuse the Arduino executed your instruction. 
+However, in an application, this causes unintended side effects. If you first ask the LLM to turn on the LED, it will execute your instruction. If you then ask the LLM to switch the LED off - you'll see that the LED turns off. However, the LED will be switched off because the board resets - not beacuse the Arduino executed your instruction. 
 
 The way to solve this is to physically disable the auto-reset feature on the Arduino. This allows the Python script to open and close connections without restarting the board, preserving the state of the LED. Auto-reset can be disabled by adding a 10uF capacitor between the RESET and GND pins on your Arduino - negative connected to GND and positive connected to RESET. This capacitor will need to be removed before a new skecth is uploaded to the Arduino, and then reinstalled when the upload is completed.
 
