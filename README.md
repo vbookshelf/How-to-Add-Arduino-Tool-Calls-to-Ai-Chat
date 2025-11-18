@@ -2,6 +2,8 @@
 
 The attached notebook and Arduino code is simple example that shows how to connect Python code running in a local Jupyter Notebook to an Arduino. This setup gives a user the ability to tell AI chat agents to take actions in the real world e.g. switch on a light. It's also an easy and low-cost way to add GPIO pins to a Mac or PC.
 
+This example will help you to quickly grasp the fundamentals of connecting AI to the physical world.
+
 <br>
 
 ## How It Works
@@ -28,4 +30,4 @@ The included Jupyter Notebook (`example.ipynb`) provides two examples:
 *   **2. Control Arduino with the Gemini LLM**
     *   Use a Large Language Model (LLM) to interact with the Arduino using natural language. By chatting with Gemini and using function calling, you can type commands like "turn the light on." The model will translate your request into code that controls the Arduino. 
 
-This setup will help you to quickly grasp the fundamentals of connecting AI to the physical world.
+
