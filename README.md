@@ -82,7 +82,7 @@ https://www.udemy.com/course/digital-electronics-robotics-learn-by-building-modu
 
 <img src="images/image2.png" alt="Arduino minion." height="350">
 
-This example is a framework for using a powerful computer as the "Brain" and the Arduino as the "Hands." Computers, like the Silicon Mac, are very powerful, but they have no direct way to "move" things in the real world or to "sense" the real world. This approach solves that problem. It combines the processing power of a Silicon Mac with the hardware control of the low-cost Arduino. Now your computer can act as a "Central Brain Server," controlling multiple Arduino "Minions."
+This example is a framework for using a powerful computer as the "Brain" and the Arduino as the "Hands." Computers, like the Silicon Mac, are very powerful, but they have no direct way to "move" things in the real world or to "sense" the real world. This approach solves that problem. It combines the processing power of a Silicon Mac with the hardware control of the low-cost Arduino.
 
 <br>
 
