@@ -80,7 +80,7 @@ https://www.udemy.com/course/digital-electronics-robotics-learn-by-building-modu
 
 ## Conclusion
 
-This example is a stepping stone toward building more complex AI-driven IoT and robotics projects.
+This example is a stepping stone toward building more complex AI-driven IoT and conversational robotics projects.
 
 <br>
 
