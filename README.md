@@ -1,4 +1,4 @@
-# Add Arduino Tool Calls to Ai Chat
+# Connect Ai to the Physical World with Arduino
 
 The attached notebook and Arduino code is a simple example that shows how to connect Python code running in a local Jupyter Notebook to an Arduino. This setup gives a user the ability to tell AI chat agents to take actions in the real world e.g. switch on a light. The agent executes the user's natural language instructions by making function calls (tool calls) to the Arduino.
 
